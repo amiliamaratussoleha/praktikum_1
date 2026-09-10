@@ -1,6 +1,6 @@
 <div>
     <!-- People find pleasure in different ways. I find it in keeping my mind clear. - Marcus Aurelius -->
-    <h1 align ="center" style="margin-top: 30px;"">Riwayat Pendidikan</h1>
+    <h1 align ="center" style="margin-top: 30px;"">{{ $judul }}</h1>
     <p align="center">
         Perjalanan Pendidikan saya </p>
     <table border=1 align="center" height=15% width=20% cellpadding=2 cellspacing=1>
@@ -9,15 +9,15 @@
         </tr>
         <tr>
             <td>Nama Sekolah</td>
-            <td>SDN MADUPAT 1</td>
+            <td>{{ $SD }}</td>
         </tr>
         <tr>
             <td>TAHUN :</td>
-            <td>2013 - 2019</td>
+            <td>{{ $thn_SD }}</td>
         </tr>
         <tr>
             <td>ALAMAT :</td>
-            <td>JL. Raya madupat</td>
+            <td>{{ $alamat_SD }}</td>
         </tr>
     </table> <br>
 
@@ -27,15 +27,15 @@
         </tr>
         <tr>
             <td>Nama Sekolah :</td>
-            <td>SMPN 2 CAMPLONG</td>
+            <td>{{ $SMP }}</td>
         </tr>
         <tr>
             <td>TAHUN :</td>
-            <td>2019 - 2022</td>
+            <td>{{ $thn_SMP }}</td>
         </tr>
         <tr>
             <td>ALAMAT :</td>
-            <td>JL. Raya madupat</td>
+            <td>{{ $alamat_SMP }}</td>
         </tr>
     </table><br>
 
@@ -45,15 +45,15 @@
         </tr>
         <tr>
             <td>Nama Sekolah :</td>
-            <td>SMKN 2 SAMPANG</td>
+            <td>{{ $SMk }}</td>
         </tr>
         <tr>
             <td>TAHUN :</td>
-            <td>2022 - 2025</td>
+            <td>{{ $thn_SMk }}</td>
         </tr>
         <tr>
             <td>ALAMAT :</td>
-            <td>JL. Syamsul Arifin</td>
+            <td>{{ $alamat_SMk }}</td>
         </tr>
     </table>
     <br>
@@ -63,15 +63,15 @@
         </tr>
         <tr>
             <td>Nama Kampus :</td>
-            <td>POLINEMA PSDKU PAMEKASAN</td>
+            <td>{{ $kampus }}</td>
         </tr>
         <tr>
             <td>TAHUN :</td>
-            <td>2025 - </td>
+            <td>{{ $thn_kampus }}</td>
         </tr>
         <tr>
             <td>ALAMAT :</td>
-            <td>Pademawu, Lawangan Daya</td>
+            <td>{{ $alamat_kampus }}</td>
         </tr>
     </table><br>
     <div>

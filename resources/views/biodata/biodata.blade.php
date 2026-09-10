@@ -1,11 +1,9 @@
 <div>
     <!-- Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. - Maria Skłodowska-Curie -->
-
-    <h1 align="center" style="margin-top: 30px;">About Me Briefly</h1><br>
+    <h1 align="center" style="margin-top: 30px;">{{ $judul }}</h1><br>
     <table border=1 align="center" height=20% width=15% cellpadding=2 cellspacing="1">
         <tr>
-            <td colspan=2 align="center"><img src="{{ asset('images/my photo.jpeg') }}" align="center" width="220"
-                    height="270"></td>
+            <td colspan=2 align="center"><img src="{{ asset($foto) }}" align="center" width="220" height="270"></td>
         </tr>
     </table>
     <table border=1 align="center" height=30% width=33% cellpadding=2 cellspacing="1">>
@@ -14,39 +12,39 @@
         </tr>
         <tr>
             <td>Nama</td>
-            <td>Amilia Maratus Soleha</td>
+            <td>{{ $nama }}
         </tr>
         <tr>
             <td>Tempat Tanggal Lahir</td>
-            <td>Sampang, 22-11-2007</td>
+            <td>{{ $tgl }}</td>
         </tr>
         <tr>
             <td>NIM</td>
-            <td>253107050001</td>
+            <td>{{ $Nim }}</td>
         </tr>
         <tr>
             <td>Program Studi</td>
-            <td>D3 Manajemen Informatika</td>
+            <td>{{ $prodi }}</td>
         </tr>
         <tr>
             <td>Jurusan</td>
-            <td>TEKNOLOGI INFORMASI</td>
+            <td>{{ $jurusan }}</td>
         </tr>
         <tr>
             <td>Hobi</td>
-            <td>Pencak silat, </td>
+            <td>{{ $hobi }}</td>
         </tr>
         <tr>
             <td>Cita-Cita</td>
-            <td>Atlet Indonesia,</td>
+            <td>{{ $cita }}</td>
         </tr>
         <tr>
             <td>Alamat</td>
-            <td>Jl. Raya Madupat</td>
+            <td>{{ $alamat }}</td>
         </tr>
         <tr>
             <td>No.Telpon</td>
-            <td>083839296321</td>
+            <td>{{ $hp }}</td>
         </tr>
     </table><br><br>
 
