@@ -43,7 +43,7 @@
             <td>2025</td>
         </tr>
         <tr>
-            <td align="center">7</td>
+            <td align="center">4</td>
             <td>Sekretaris Kejuaraan</td>
             <td>Kejuaraan Nasional Ikatan Pencak Silat Nurharias</td>
             <td>Nasional</td>
@@ -51,7 +51,7 @@
             <td>2025</td>
         </tr>
         <tr>
-            <td align="center">4</td>
+            <td align="center">5</td>
             <td>Peserta O2SN Jawa Timur</td>
             <td>Olimpiade Olahraga Siswa Nasional (O2SN) Tingkat Provinsi Jawa Timur</td>
             <td>Nasional/Provinsi</td>
@@ -59,7 +59,7 @@
             <td>2024</td>
         </tr>
         <tr>
-            <td align="center">5</td>
+            <td align="center">6</td>
             <td>Juara 3 Seni Tunggal Tangan Kosong Remaja Putri </td>
             <td>Kejuaraan Nasional Pencak Silat IPSI Malang Champiiiiionship III</td>
             <td>Nasional</td>
@@ -67,7 +67,7 @@
             <td>2023</td>
         </tr>
         <tr>
-            <td align="center">6</td>
+            <td align="center">7</td>
             <td>Juara 2 Seni Tunggal Dewasa Putri </td>
             <td>Kejuaraan Pencak Silat Bupati Cup IPSI Kabupaten Sampang</td>
             <td>Kabupaten</td>

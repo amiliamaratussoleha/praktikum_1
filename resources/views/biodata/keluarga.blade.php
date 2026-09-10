@@ -57,7 +57,7 @@
         </tr>
     </table><br>
     <div>
-        <form align="center" action="/biodata" method="GET">
+        <form align="center" action="/mybio" method="GET">
             <button type="submit">Kembali</button>
         </form>
     </div>

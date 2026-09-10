@@ -1,9 +1,9 @@
 <div>
     <!-- Nothing worth having comes easy. - Theodore Roosevelt -->
-    <h1 align="center" style="margin-top:30px">Prestasi dan Penghargaan</h1>
+    <h1 align="center" style="margin-top:30px">{{ $judul }}</h1>
     <p align="center">
-        Halo semuanya, di halaman ini itu berisi prestasi prestasi serta penghargan yang sudah saya raih<br>
-        baik di lingkungan organisasi di akademik dan lomba lomba diluar akademik mulai dari smp hingga kuliah
+        {{ $p1 }}<br>
+        {{ $p2 }}
     </p><br>
 
     <table border=1 align="center" height=30% width=70% cellpadding=2 cellspacing=1>
@@ -11,85 +11,85 @@
             <td colspan=6 align=center valign=center><b>DAFTAR PRESTASI & PENGHARGAAN<b></td>
         </tr>
         <tr align="center">
-            <td><b>No</b> </td>
-            <td><b>Nama Prestasi/Penghargaan</b></td>
-            <td><b>Nama Kegiatan</b></td>
-            <td><b>Tingkat</b></td>
-            <td><b>Penyelenggara</b></td>
-            <td><b>Tahun</b></td>
+            <td><b>{{ $no }}</b> </td>
+            <td><b>{{ $prestasi }}</b></td>
+            <td><b>{{ $kegiatan }}</b></td>
+            <td><b>{{ $Tingkat }}</b></td>
+            <td><b>{{ $Penyelenggara }}</b></td>
+            <td><b>{{ $tahun }}</b></td>
         </tr>
         <tr>
-            <td align="center">1</td>
-            <td>Juara 1 Tunggal Bersenjata Dewasa Putri </td>
-            <td>kejuaraan Pencak Silat Madura sport Championship 2 Piala Bupati Bangkalan</td>
-            <td>Kabupaten</td>
-            <td>Bupati Kabupaten Bangkalan</td>
-            <td>2026</td>
+            <td align="center">{{ $no1 }}</td>
+            <td>{{ $prestasi1 }}</td>
+            <td>{{ $kegiatan1 }}</td>
+            <td>{{ $Tingkat1 }}</td>
+            <td>{{ $Penyelenggara1 }}</td>
+            <td>{{ $tahun1 }}</td>
         </tr>
         <tr>
-            <td align="center">2</td>
-            <td>Juara 1 Seni Tunggal Dewasa Putri </td>
-            <td>Kejuaraan Nasional Ikatan Pencak Silat Nurharias</td>
-            <td>Nasional</td>
-            <td>IPS Nurharias Cabang Sampang</td>
-            <td>2025</td>
+            <td align="center">{{ $no2 }}</td>
+            <td>{{ $prestasi2 }}</td>
+            <td>{{ $kegiatan2 }}</td>
+            <td>{{ $Tingkat2 }}</td>
+            <td>{{ $Penyelenggara2 }}</td>
+            <td>{{ $tahun2 }}</td>
         </tr>
         <tr>
-            <td align="center">3</td>
-            <td>Juara 3 Seni Tunggal Dewasa Putri </td>
-            <td>Kejuaraan Pencak Silat "IPSI CUP SAMPANG</td>
-            <td>Kabupaten</td>
-            <td>IPSI Cabang Sampang</td>
-            <td>2025</td>
+            <td align="center">{{ $no3 }}</td>
+            <td>{{ $prestasi3 }}</td>
+            <td>{{ $kegiatan3 }}</td>
+            <td>{{ $Tingkat3 }}</td>
+            <td>{{ $Penyelenggara3 }}</td>
+            <td>{{ $tahun3 }}</td>
         </tr>
         <tr>
-            <td align="center">7</td>
-            <td>Sekretaris Kejuaraan</td>
-            <td>Kejuaraan Nasional Ikatan Pencak Silat Nurharias</td>
-            <td>Nasional</td>
-            <td>IPS Nurharias Cabang Sampang</td>
-            <td>2025</td>
+            <td align="center">{{ $no4 }}</td>
+            <td>{{ $prestasi4 }}</td>
+            <td>{{ $kegiatan4 }}</td>
+            <td>{{ $Tingkat4 }}</td>
+            <td>{{ $Penyelenggara4 }}</td>
+            <td>{{ $tahun4 }}</td>
         </tr>
         <tr>
-            <td align="center">4</td>
-            <td>Peserta O2SN Jawa Timur</td>
-            <td>Olimpiade Olahraga Siswa Nasional (O2SN) Tingkat Provinsi Jawa Timur</td>
-            <td>Nasional/Provinsi</td>
-            <td>Dinas Pendidikan Provinsi Jawa Timur</td>
-            <td>2024</td>
+            <td align="center">{{ $no5 }}</td>
+            <td>{{ $prestasi5 }}</td>
+            <td>{{ $kegiatan5 }}</td>
+            <td>{{ $Tingkat5 }}</td>
+            <td>{{ $Penyelenggara5 }}</td>
+            <td>{{ $tahun5 }}</td>
         </tr>
         <tr>
-            <td align="center">5</td>
-            <td>Juara 3 Seni Tunggal Tangan Kosong Remaja Putri </td>
-            <td>Kejuaraan Nasional Pencak Silat IPSI Malang Champiiiiionship III</td>
-            <td>Nasional</td>
-            <td>IPSI Malang</td>
-            <td>2023</td>
+            <td align="center">{{ $no6 }}</td>
+            <td>{{ $prestasi6 }}</td>
+            <td>{{ $kegiatan6 }}</td>
+            <td>{{ $Tingkat6 }}</td>
+            <td>{{ $Penyelenggara6 }}</td>
+            <td>{{ $tahun6 }}</td>
         </tr>
         <tr>
-            <td align="center">6</td>
-            <td>Juara 2 Seni Tunggal Dewasa Putri </td>
-            <td>Kejuaraan Pencak Silat Bupati Cup IPSI Kabupaten Sampang</td>
-            <td>Kabupaten</td>
-            <td>IPSI Sampang</td>
-            <td>2023</td>
+            <td align="center">{{ $no7 }}</td>
+            <td>{{ $prestasi7 }}</td>
+            <td>{{ $kegiatan7 }}</td>
+            <td>{{ $Tingkat7 }}</td>
+            <td>{{ $Penyelenggara7 }}</td>
+            <td>{{ $tahun7 }}</td>
         </tr>
 
         <tr>
-            <td align="center">8</td>
-            <td>Peserta OSIS Terbaik Kedua </td>
-            <td>Latihan Dasar Kepemimpinan Manajemen Siswa (LDKMS)</td>
-            <td>Sekolah</td>
-            <td>SMPN 2 Camplong</td>
-            <td>2020</td>
+            <td align="center">{{ $no8 }}</td>
+            <td>{{ $prestasi8 }}</td>
+            <td>{{ $kegiatan8 }}</td>
+            <td>{{ $Tingkat8 }}</td>
+            <td>{{ $Penyelenggara8 }}</td>
+            <td>{{ $tahun8 }}</td>
         </tr>
         <tr>
-            <td align="center">9</td>
-            <td>Peserta OSIS Terbaik Ketiga </td>
-            <td>Latihan Dasar Kepemimpinan Manajemen Siswa (LDKMS)</td>
-            <td>Sekolah</td>
-            <td>SMPN 2 Camplong</td>
-            <td>2021</td>
+            <td align="center">{{ $no9 }}</td>
+            <td>{{ $prestasi9 }}</td>
+            <td>{{ $kegiatan9 }}</td>
+            <td>{{ $Tingkat9 }}</td>
+            <td>{{ $Penyelenggara9 }}</td>
+            <td>{{ $tahun9 }}</td>
         </tr>
     </table><br>
     <table border=1 align="center" height=20% width=70% cellpadding=2 cellspacing=1>
@@ -97,12 +97,12 @@
             <td colspan="2" align="center"><b>Sedikit Moment Foto Prestasi<b></td>
         </tr>
         <tr>
-            <td align="center"><img src="{{ asset('images/my photo prestasi.png') }}" width="1000" height="250">
+            <td align="center"><img src="{{ asset($foto) }}" width="1000" height="250">
             </td>
         </tr>
     </table><br>
     <div>
-        <form align="center" action="/biodata" method="GET">
+        <form align="center" action="/mybio" method="GET">
             <button type="submit">Kembali</button>
         </form>
     </div>

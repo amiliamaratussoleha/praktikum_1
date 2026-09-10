@@ -49,13 +49,13 @@
     </table><br><br>
 
     <div align="center">
-        <form action="/keluarga" method="GET" style="display: inline">
+        <form action="/mykeluarga" method="GET" style="display: inline">
             <button type="submit" margin-right:20px;>keluarga</button>
         </form>
-        <form action="/sekolah" method="GET" style="display: inline">
+        <form action="/myskola" method="GET" style="display: inline">
             <button type="submit" margin-right:50px;>sekolah</button>
         </form>
-        <form action="/prestasi" method="GET" style="display: inline">
+        <form action="/myprestasi" method="GET" style="display: inline">
             <button type="submit">prestasi</button>
         </form>
     </div>

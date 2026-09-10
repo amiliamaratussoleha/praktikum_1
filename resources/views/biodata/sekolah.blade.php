@@ -2,7 +2,7 @@
     <!-- People find pleasure in different ways. I find it in keeping my mind clear. - Marcus Aurelius -->
     <h1 align ="center" style="margin-top: 30px;"">{{ $judul }}</h1>
     <p align="center">
-        Perjalanan Pendidikan saya </p>
+        {{ $p }} </p>
     <table border=1 align="center" height=15% width=20% cellpadding=2 cellspacing=1>
         <tr>
             <td colspan="2" align="center"><b>SEKOLAH DASAR<b></td>
@@ -75,7 +75,7 @@
         </tr>
     </table><br>
     <div>
-        <form align="center"action="/biodata" method="GET">
+        <form align="center"action="/mybio" method="GET">
             <button type="submit">Kembali</button>
         </form>
     </div>
